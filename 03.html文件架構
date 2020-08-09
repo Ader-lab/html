@@ -1,0 +1,18 @@
+<html> … </html>	指示文件的開始和結尾
+<head> … </head>	給瀏覽器用的資訊，但不顯示於瀏覽器上
+<title> … </title>	網頁文件的標題
+<meta …>	供給瀏覽器所需的資訊
+<body> … </body>	網頁包含的內容
+
+　╭<html>
+　︱ 　╭<head>
+　︱ 　︱<title>Title put here</title>
+　︱ 頭︱<meta http-equiv="Content-Type"
+文︱ 　︱ content="text/html; charset=big5">
+件︱ 　╰</head> （↑此meta說明此為繁體中文Big5碼網頁↑）
+檔︱ 正╭<body>
+　︱ 文︱The content of your page
+　︱ 　╰</body>
+　╰</html>
+
+https://sites.google.com/site/myhkweb/all-about-computers/useful-html

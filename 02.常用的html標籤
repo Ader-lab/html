@@ -1,0 +1,91 @@
+一、頁面標籤
+
+<!DOCTYPE> 定義文檔類型
+<html></html> 定義html文檔
+<script></script>定義腳本
+<head></head>定義關於文檔的信息
+<meta >定義元信息
+<title></title>定義文檔標題
+<link>定義資源引用
+<style></style>定義文檔樣式信息
+<body></body>定義文檔內容
+
+
+二、格式標籤
+
+<h1></h1>~<h6></h6>標題
+<p></p> 段落
+<strong></strong>語氣更為強烈的強調文本/粗體
+<em></em>強調文本
+<i></i>斜體文本
+<big></big>大號字體
+<small></small>小號字體
+<sup></sup>上標文本
+<sub></sub>下標文本
+<ins></ins>被插入文本
+<time></time>定義日期/時間
+<br>換行
+<hr>水平線
+
+
+
+三、表格標籤
+
+<table></table> 定義表格
+<caption></caption> 定義標題
+<thead></thead> 定義表頭部（眉）
+<tbody></tbody> 定義主體
+<tfoot></tfoot> 定義表尾部（腳）
+<tr></tr>定義行
+<td></td>定義單元格（列）
+<th><th>定義表標題行
+
+四、列表標籤
+
+<ul></ul>定義無序列表
+<ol></ol>定義有序列表
+<li></li>定義無序列表/有序列表的列表項
+<dl></dl>定義自定義列表
+<dt></dt>定義自定義列表項
+<dd></dd>定義自定義的描述
+五、布局&語義化標籤
+
+<div></div>塊級元素
+
+<span></span>行元素
+<header></header>頁眉
+<footer></footer>頁腳
+<section></section>文檔中的區塊
+<article></article>文章
+<nav></nav>導航
+<aside></aside>內容之外的內容
+
+六、表單標籤
+
+<form>表單
+<input>輸入域
+<textarea>文本域
+<label>標籤
+<fieldset>域
+<legend>域的標題
+<select>選擇列表
+<optgroup>選擇組
+<option>下拉列表選項
+<button>按鈕
+<fieldset>圍繞表單中元素的邊框
+<legend> fieldset 元素的標題
+
+七、其它
+
+<img>圖像
+<a>超連結
+<figure> 媒介內容的分組
+<figcaption> <figure> 元素的標題
+<audio>聲音
+<video>視頻
+<source>媒介源
+<iframe>內聯框架
+<canvas>圖形容器
+<embed>嵌入的內容，比如插件
+<object>添加一個對象
+<svg>添加svg
