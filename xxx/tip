@@ -1,0 +1,12 @@
+css => [class="apple"]  [] 屬性的值
+js => [] 陣列, /[]/ 正規表示法
+
+$() => jQuery
+
+
+
+<style>
+    [class="apple"]{
+        color: red;
+    }
+</style>

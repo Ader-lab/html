@@ -1,0 +1,92 @@
+
+Module 1. JavaScript基本語法
+1-1: 基本類型
+1-2: 運算子和運算元
+1-3: 流程控制
+
+Module 2. 基本集合類型
+2-1: Object
+2-2: Array
+2-3: for/in迴圈
+
+Module 3. 操作DOM
+3-1: 取得DOM元素
+3-2: 建立DOM元素
+3-3: 刪除DOM元素
+
+Module 4. 深入DOM元素
+4-1: 屬性操作
+4-2: 自訂屬性
+4-3: 元素與樣式
+
+Module 5. DOM元素集合
+5-1: querySelectorAll與NodeList
+5-2: document的子物件與HTMLCollection
+5-3: NodeList不是Array
+
+Module 6. 函式
+6-1: 函式定義
+6-2: 呼叫
+6-3: 綁定
+
+Module 7.  表單
+7-1: 文字欄
+7-2: 單選項目
+7-3: 多選項目
+
+Module 8. 深入表單
+8-1: 檔案上傳
+8-2: 上傳前預覽
+8-3: 自訂上傳按鈕
+ 
+Module 9. 事件處理器
+9-1: 不同形式的事件處理器
+9-2: 滑鼠事件
+9-3: 事件模型
+
+Module 10. 正規表示法
+10-1: 單一字元表示法
+10-2: 多字元表示法
+10-3: 表單送出前的檢查
+
+Module 11. 網頁測試伺服器
+11-1: 安裝node和http-server
+11-2: 測試頁面
+11-3: 測試送出querystring
+
+
+Module 12. Promise類型
+12-1: unblock與callback hell
+12-2: Promise的優點
+12-3: Promise建議的使用方式
+
+Module 13. AJAX
+13-1: 什麼是AJAX
+13-2: XMLHttpRequest
+13-3: fetch函式
+
+Module 14. 物件導向使用prototype
+14-1: 自訂功能物件
+14-2: 使用function自訂類型
+14-3: 擴展類型功能
+
+Module 15. 物件導向使用class
+15-1: 類別基本定義方式
+15-2: 建構函式
+15-3: 屬性與方法
+
+Module 16. 使用babel
+16-1: 使用npm建立專案
+16-2: 安裝和設定babel
+16-3: 引入和匯出模組
+
+
+Module 17. 在專案上使用webpack
+17-1: 安裝webpack
+17-2: 安裝loader
+17-3: 功能模組化
+
+Module 18. ES7的await和async
+18-1: 改善Promise缺點
+18-2: await使用時機
+18-3: async的使用"

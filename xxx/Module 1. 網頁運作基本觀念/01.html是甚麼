@@ -2,3 +2,8 @@ HTML是一種網頁使用的語言，
 是一種描述超文件的註記語言SGML(Standard Generalized Markup Language)所制訂出的一種網頁語言，
 基本上現行的瀏覽器都可以讀取HTML，使用HTML可以編輯設計出網頁，
 也可以在網頁中加入所有HTML語言可支援的方式，例如表格、表單、圖片、文字、連結、程式等等。
+
+
+
+
+<!DOCTYPE HTML  解釋
