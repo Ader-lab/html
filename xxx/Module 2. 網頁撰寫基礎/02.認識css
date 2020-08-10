@@ -1,6 +1,0 @@
-css直接寫在標籤上: <p style=”color:#999”>
-先宣告標籤元素 <style></style> 才可以開始寫css
-網頁要引進CSS: <link rel="stylesheet" href="main.css">
-
-
-CSS設定網頁內的文字顏色: p {color: green; }

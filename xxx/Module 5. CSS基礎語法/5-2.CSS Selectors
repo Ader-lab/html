@@ -1,0 +1,37 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+星號標誌會指向頁面上所有的元素。 
+<------------------------------------------------->
+#container * {
+ border: 1px solid black;
+}
+星號*可以同時被用於子對象選擇器中。
+<------------------------------------------------->
+#container {
+   width: 960px;
+   margin: auto;
+}
+在選擇器前面加井號鍵可以允許我們指向id。
+不過當使用id選擇器的時候要注意，id是唯一
+<------------------------------------------------->
+.container {
+   width: 960px;
+   margin: auto;
+}
+這是一個class選擇器。 id和class的不同點就是class可以同時標記多個元素。
+當你想要你的樣式應用到一組元素的時候你可以使用class。
+或者，你也可以使用id來刻意讓一個單獨的元素使用特別的樣式。
+<------------------------------------------------->
+li a {
+  text-decoration: none;
+}
+descendant selector（子對象選擇器）
+li 裡面的所有 a標籤
+<------------------------------------------------->
+:hover	a:hover	Selects links on mouse over
+<------------------------------------------------->
+
+
+https://code.tutsplus.com/zh-hant/tutorials/the-30-css-selectors-you-must-memorize--net-16048

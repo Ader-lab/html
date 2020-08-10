@@ -1,0 +1,24 @@
+<a href="https://www.mozilla.org/en-US/">the Mozilla homepage</a>.
+利用 title 屬性來添加額外資訊
+
+就像先前所提到的，你可以將任何內容轉換成連結，就算是區塊級元素也沒問題
+！如果你有一張圖片要轉換成連結，你可以把圖片元素放在 <a> 標籤裡，像這樣：
+<a href="https://www.mozilla.org/en-US/">
+  <img src="mozilla-image.png" alt="mozilla logo that links to the mozilla homepage">
+</a>
+
+
+指向網路上的絕對位址，裡頭包含協定(protocol)和網域名稱(domain name)。
+舉個例子，假設一個 web server 的根目錄有一個 projects 目錄，
+裡面放著一個 index.html，該網站的網域為 http://www.example.com，
+則網頁可以透過網址 http://www.example.com/projects/index.html 來取得 
+(或寫成 http://www.example.com/projects/ 也行，因為大多的 web server 
+都能在 URL 沒有明確指出時，自動找尋如 index.html 之類的登陸頁面)。
+
+
+相對 URL：指向一個檔案的相對位址，這跟我們在先前看到的非常類似。
+舉例來說，如果我們想要從 http://www.example.com/projects/index.html
+連到同一目錄下的 PDF 檔，URL 就只要檔名就好 — 像是 project-brief.pdf — 不需要其它的資訊。
+如果那個 PDF 放在 projects 中叫做 pdfs 的子目錄裡，
+其相對連結就是 pdfs/project-brief.pdf
+(等效的絕對 URL 為 http://www.example.com/projects/pdfs/project-brief.pdf)。

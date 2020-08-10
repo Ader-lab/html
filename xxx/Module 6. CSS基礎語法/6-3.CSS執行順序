@@ -1,0 +1,15 @@
+<style type="text/css">
+    #d { color: Orange }
+    .clsName { color: Yellow }
+    div { color: Green }
+</style>
+<div id="d" class="clsName" style="color: Red">Text</div>
+
+因為 element style > #d > .clsName > div，
+所以由style=”color: Red”勝出，文字是紅色的。
+若將style="color: Red”移除，則由#d做主變成橘色；
+將#d規則移除後換.clsName當家變成黃色；
+把.clsName也拿掉，才輪到div決定綠色。
+
+
+https://blog.darkthread.net/blog/css-specificity/

@@ -1,0 +1,10 @@
+超文字置標語言5(HTML5)有一種元素能夠插入有標題的圖表。(我們將展示一個慣例來用以下 HTML4做同樣的事情。)
+
+<figure>
+  <p><img src="eiffel.jpg"
+    width="136" height="200"
+    alt="Eiffel tower">
+  <figcaption>
+    迷你法國公園裡艾菲爾鐵塔的模型縮放
+  </figcaption>
+</figure>
