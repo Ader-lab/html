@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> innerHTML & innerText </title>
+</head>
+<body>
+    <div id="app">
+        <a id="Btn" href="javascript:;">按我得到JS內容</a>
+        <p id="tit"></p>
+    </div>
+    <script>
+        var title = document.getElementById('tit');
+        var txt = "<a href='https://zh.wikipedia.org/wiki/JavaScript'>JavaScript</a>是一種腳本，也能稱它為程式語言，可以讓你在網頁中實現出複雜的功能。"
+        document.getElementById("Btn").addEventListener("click", function(){
+            // title.innerText = txt;
+            title.innerHTML = txt;
+        });
+
+    </script>
+</body>
+</html>

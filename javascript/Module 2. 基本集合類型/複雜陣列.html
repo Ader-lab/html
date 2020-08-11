@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>陣列迴圈應用</title>    
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/08-1.css">
+</head>
+<body>
+    <header></header>
+    <div id="app">
+        <h1>常用網站</h1>
+        <ul id="list">
+            <!-- <li><a href="javascript:;"></a></li>-->
+        </ul>
+        <a class="More" href="javascript:;">More ></a>
+    </div>
+    <footer></footer>
+    <script>
+        var html = '';
+        var title = [
+            "Youtube",
+            "Google",
+            "Yahoo",
+            "w3schools",
+            "CoreLab",
+        ];
+        var url = [
+            "https://www.youtube.com/?gl=TW&hl=zh-TW",
+            "https://www.google.com/",
+            "https://tw.yahoo.com/",
+            "https://www.w3schools.com/",
+            "https://corelab.iiiedu.org.tw/",
+        ];
+        for(var i = 0; i < title.length; i++){
+            html+= '<li><a href="'+url[i]+'" target="_blank">'+title[i]+'</a></li>'
+        }
+        document.getElementById("list").innerHTML = html;
+
+    </script>
+</body>
+</html>
