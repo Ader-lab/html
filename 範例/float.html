@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            /* float:left; */
+        }
+        .red{
+            height: 100px;
+            background-color: red;
+            /* 只有紅色box給他float藍色就會跑到紅色的後面 */
+            /* 因為紅色浮起來了，原來的位置就空了，藍色就會跑到紅色的下面 */
+            float:left; 
+        }
+        .blue{
+            float:left; 
+            height: 120px;
+            background-color: blue;
+        }
+        .yellow{
+            /* clear: both: 清除浮動效果
+            不會受到前一個盒子float的影響，
+            而定在原本應該定的位置 */
+            clear: both;
+            height: 120px;
+            background-color: yellow;
+        }
+        /* 原本都是同一個階層，一個下float讓他有浮動效果，另一個就會跑到他後面 */
+    </style>
+</head>
+<body>
+    <div class="box red"></div>
+    <div class="box blue"></div>
+    <div class="box yellow"></div>
+</body>
+</html>

@@ -1,4 +1,5 @@
 <img src=" 圖片檔案位置和檔名 ">
+<img src="要插入的圖片 URL" alt="圖片替代文字" title="要顯示的文字" border="圖片邊框">
 
 絕對位置 https://www.youtube.com/watch?
 相對位置 ../image/dog.jpg

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #app {
+            /* 如果高度不想要寫固定，要隨著裡面的內容撐開 */
+            width: 100%;
+            height: auto;
+            background-color: #ccc;
+            /* overflow: hidden讓父物件可以抓到子物件的高度而去撐開我的DIV */
+            overflow: hidden;
+        }
+        .box{
+            /* 把float打開之後#app的background-color就不見了 */
+            /* 原因float會造成父物件無法去抓到子物件的高度 */
+            width: 100px;
+        }
+        .red{
+            float:left; 
+            height: 100px;
+            background-color: red;
+        }
+        .blue{
+            float:right; 
+            height: 120px;
+            background-color: blue;
+        }
+        .test{
+            width: 90%;
+            height: 120px;
+            background-color: yellow;
+            clear: both;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div id="app">
+        <div class="box red"></div>
+        <div class="box blue"></div>
+        <div class="box test"></div>
+    </div>
+</body>
+</html>

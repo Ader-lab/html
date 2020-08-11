@@ -1,0 +1,50 @@
+margin, border, padding 與 width
+
+min-width: Npx ：內文最少寬度 (若資料多於此寬度，會持續放大 width)
+max-width: Npx ：內文最大寬度 (若資料少於此寬度，則 width 會比較小)
+
+padding{-top|-right|-bottom|-left}: ：單純的 padding 可以給予四個數值，分別是上、右、下、左四個邊的內部留白
+margin{-top|-right|-bottom|-left}: ：單純的 margin 可以給予四個數值，分別是上、右、下、左四個邊的外部留白
+
+
+border-radius: 框線的四個角落的彎曲度，
+可以填寫四個數值，四個數值影響的是左上、右上、右下、左下順時針轉一圈的直角，
+數值的意義是『圓的半徑』。所以越小的數值會讓曲線比較短，越大的數值會讓曲線比較長。
+
+box-shadow: X Y 模糊度 延伸 顏色：X 為陰影向右的距離、Y 為陰影向下的距離、模糊度為陰影的銳利度，
+0 就會出現實線，數值越大代表越模糊、 延伸代表陰影要不要向外(正值)延伸或向內(負值)延伸，最後就是顏色屬性。
+
+<--------------------------------------------------------------->
+
+區塊元素(block element)：
+就是在HTML文件中加入後會自己換行
+block 預設是 div, h1, p… 什麼設定值都可以調 會佔據整行
+
+div - 常用塊級輕易，也是css layout的主要標簽
+form - 交互表單
+h1 - 大標題
+hr - 水平分隔線
+ol - 排序表單
+p - 段落
+table - 表格
+ul - 非排序列表
+
+行內元素(inline element)：
+就是在HTML文件中加入後仍然與前後內容放置在同一個文字段落中
+inline 預設的代表示 span, a 不能條寬高、上下邊距也不能調
+
+a - 錨點abbr - 縮寫
+img - 圖片
+input - 輸入框
+label - 表格標簽
+span - 常用內聯容器，定義文本內區塊
+select - 項目選擇
+strong - 粗體強調
+i - 斜體
+
+
+inline-black
+預設的代表示 buttom, input, select…
+對外像 inline 可以併排
+對內像 block 可以調整各種屬性
+測試直接使用 CSS 屬性調整

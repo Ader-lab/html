@@ -1,0 +1,43 @@
+<tr> (table row) 用來定義表格有幾個橫列 (row)，
+<tr> 裡面有 <td> (table data) 用來定義表格有幾個直行 (cloumn)，
+至於 <td> 裡面就是放實際單元格的資料。 -->
+
+<th> (table header) 用來表示表格欄位的標題，
+<th> 可以用來替代 <td> 使用，
+用來在語意上更明確的聲明這一格是一個標題。 
+
+
+
+<thead> 表格表頭區塊, <tbody> 表格主要內容區塊, <tfoot> 表格頁腳區塊
+
+<thead> (table header), <tbody> (table body) 和 <tfoot> (table footer) 
+主要用來增強表格 HTML 的語意性 (semantic)，
+分別用來明確區分表格中的不同目的區塊，其中 thead 是說明這一個區塊的內容是表格欄位標題；
+<tbody> 是說明這一個區塊是放表格的主要內容；
+<tfoot> 則是說明這一個區塊裡面放的是表格的頁腳內容。
+
+<caption> 表格的標題
+<caption> 放在 <table> 中最前面的第一個標籤，
+用來說明表格的標題，而一個表格只能有一個標題。
+
+合併儲存格: colspan 和 rowspan 屬性
+
+rowspan - 垂直合併儲存格
+<tr>
+    <td>iPhone 11</td>
+    <td>$24,900</td>
+    <td rowspan="2">$31,390</td>
+</tr>
+上方例子中，rowspan="2" 表示從這一列開始往下合併至下一列 (共 2 列)。
+所以說，你 rowspan 合併幾列，後面幾列的 <tr> 中同樣位置的 <td> 就要省略不寫。
+rowspan="0" 是特殊語法，意思是儲存格從這一列開始合併到最後一列的意思。
+
+
+colspan - 水平合併儲存格
+
+<tr>
+    <td colspan="2">總金額: $31,390</td>
+</tr>
+
+上方例子中，colspan="2" 表示從這一行開始往右合併至下一行 (共 2 行)。
+所以說，你 colspan 合併幾行，該儲存格緊接著的同一列 <tr> 後面的幾個 <td> 就要省略不寫。

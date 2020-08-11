@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,
+    td {
+        width: 30%;
+        height: auto;
+        border: 1px solid #333;
+    }
+    
+    thead,
+    tfoot {
+        background-color: #333;
+        color: #fff;
+    }
+</style>
+<body>
+    <!-- <tr> (table row) 用來定義表格有幾個橫列 (row)，
+        <tr> 裡面有 <td> (table data) 用來定義表格有幾個直行 (cloumn)，
+        至於 <td> 裡面就是放實際單元格的資料。 -->
+
+    <!-- <th> (table header) 用來表示表格欄位的標題，
+    <th> 可以用來替代 <td> 使用，
+        用來在語意上更明確的聲明這一格是一個標題。 -->
+    <table>
+        <thead>
+            <tr>
+                <th>項目</th>
+                <th>金額</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>手機</td>
+                <td>$24,900</td>
+            </tr>
+            <tr>
+                <td>書</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>筆</td>
+                <td>$25</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>總金額</th>
+                <td>$57,290</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
