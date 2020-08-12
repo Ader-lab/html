@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> input,change,keydown,keyup 事件 </title>
+</head>
+<body>
+    <div id="app">
+        <label for="userName">
+            姓名: <input type="text" id="userName">
+        </label>
+        <button id="btn">按鈕</button>
+        <!-- <input type="checkbox"> -->
+    </div>
+    <script>
+        let txt = '';
+        document.getElementById('userName')
+            .addEventListener("input",function(e){
+                txt = this.value;
+            })
+        document.getElementById('userName')
+            .addEventListener("keyup",function(e){
+            if(e.keyCode === 13) {
+                alert("你的姓名是:" + txt);
+            }
+        })
+        document.getElementById('btn')
+            .addEventListener("click", function(){
+                alert("你的姓名是:" + txt);
+            })
+    </script>
+</body>
+</html>

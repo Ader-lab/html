@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+    <script>
+        // NodeList不是陣列，不能用foreach以外
+        console.log(document.querySelectorAll('.box'))
+        // document.querySelectorAll('.box').forEach((i) => {
+        //     console.log(i);
+        // })
+    </script>
+    
+</body>
+</html>
